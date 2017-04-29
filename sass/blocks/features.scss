@@ -1,0 +1,32 @@
+.features{
+  padding: 140px 0;
+  &__item{
+    width: 580px;
+    &-title{
+      color: #191b29;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 48px;
+    }
+    &__description{
+      color: #191b29;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 30px;
+    }
+    &-signup{
+      display: inline-block;
+      padding: 5px 30px;
+      border-radius: 27px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      background-color: #dd4b2b;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
+      &:hover{
+        background-color: #4b4e73;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.food{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  &__kind{
+    @extend %flex-column;
+    width: 310px;
+    align-items: center;
+    &-title{
+      text-align: center;
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 24px;
+    }
+    &-description{
+      color: #ffffff;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 30px;
+    }
+  }
+}

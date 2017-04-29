@@ -1,0 +1,15 @@
+.logo{
+  @extend %flex-column;
+  &__text{
+    color: #31353e;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  &__description{
+    color: #dd4b2b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+}

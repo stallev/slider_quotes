@@ -1,0 +1,19 @@
+.nav{
+  display: flex;
+  align-items: center;
+  &__item{
+    display: block;
+    box-sizing: border-box;
+    padding: 8px 10px;
+    color: #31353e;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    &:hover{
+      border-radius: 24px;
+      background-color: #dd4b2b;
+      color: #edeff1;
+    }
+  }
+
+}

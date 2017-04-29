@@ -1,0 +1,12 @@
+.container{
+  @extend %container;
+  &--header-upper{
+    display: flex;
+    justify-content: space-between;
+  }
+  &--upper-footer{
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-around;
+  }
+}

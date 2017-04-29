@@ -1,0 +1,31 @@
+.news{
+  padding: 100px 0 0 0;
+  &__title{
+    text-align: center;
+    color: #31353e;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  &__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__thumbnail{
+    width: 371px;
+    &-title{
+      color: #31353e;
+      line-height: 30px;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    &-description{
+      color: #31353e;
+      line-height: 30px;
+      font-size: 15px;
+      font-weight: 300;
+    }
+  }
+
+}
