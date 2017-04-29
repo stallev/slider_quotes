@@ -4,126 +4,184 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.min.css">
   <title>Slider</title>
 </head>
 <body>
   <header class="header">
     <div class="header__upper-header">
-      <div class="logo">
-        <div class="logo__image"></div>
-        <span class="logo__description"></span>
+      <div class="container container--header-upper">
+        <div class="logo">
+          <span class="logo__text">Panakeia</span>
+          <span class="logo__description">Free PSD template</span>
+        </div>
+        <nav class="nav">
+          <a href="" class="nav__item">Fusce at</a>
+          <a href="" class="nav__item">Facilisis</a>
+          <a href="" class="nav__item">Ante donec</a>
+          <a href="" class="nav__item">Blandit rhoncus</a>
+          <a href="" class="nav__item">Placerat</a>
+        </nav>
       </div>
-      <nav class="navigation">
-        <a href="" class="navigation__item">Item_1</a>
-        <a href="" class="navigation__item">Item_2</a>
-        <a href="" class="navigation__item">Item_3</a>
-        <a href="" class="navigation__item">Item_4</a>
-        <a href="" class="navigation__item">Item_5</a>
-      </nav>
     </div>
     <div class="header__bottom-header">
-      <div class="page-title">
-        <h1 class="page-title__text"></h1>
-        <p class="page-title__description"></p>
-      </div>
-      <div class="food">
-        <div class="food__kind">
-          <a href="#" class="food__kind-link">
-            <img src="http://lorempixel.com/148/148/food" alt="">
-          </a>
-          <h4 class="food__kind-title"></h4>
-          <p class="food__kind-description"></p>
+      <div class="container">
+        <div class="page-title">
+          <h1 class="page-title__text">
+            Integer at tortor ut magna
+          </h1>
+          <p class="page-title__description">
+            finibus lobortis sed quis tellus.
+          </p>
         </div>
-        <div class="food__kind">
-          <a href="#" class="food__kind-link">
-            <img src="http://lorempixel.com/148/148/food" alt="">
-          </a>
-          <h4 class="food__kind-title"></h4>
-          <p class="food__kind-description"></p>
+        <div class="food">
+          <div class="food__kind">
+            <a href="#" class="food__kind-link">
+              <img src="img/ic_food1.png" alt="">
+            </a>
+            <h3 class="food__kind-title">Tincidunt</h3>
+            <p class="food__kind-description">
+              Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. Nullam tempus egestas efficitur. Sed quam dolor.
+            </p>
+          </div>
+          <div class="food__kind">
+            <a href="#" class="food__kind-link">
+              <img src="img/ic_food2.png" alt="">
+            </a>
+            <h3 class="food__kind-title">
+              Duis bibendum
+            </h3>
+            <p class="food__kind-description">
+              Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus. In hac habitasse platea dictumst.
+            </p>
+          </div>
+          <div class="food__kind">
+            <a href="#" class="food__kind-link">
+              <img src="img/ic_food3.png" alt="">
+            </a>
+            <h3 class="food__kind-title">
+              Donec ligula
+            </h3>
+            <p class="food__kind-description">
+              Nullam tempus egestas efficitur. Sed quam dolor, vulputate sed mattis et, sodales quis orci. Ut arcu arcu, faucibus eu risus blandit,.
+            </p>
+          </div>
+          <a href="#" class="food__read-more"></a>
         </div>
-        <div class="food__kind">
-          <a href="#" class="food__kind-link">
-            <img src="http://lorempixel.com/148/148/food" alt="">
-          </a>
-          <h4 class="food__kind-title"></h4>
-          <p class="food__kind-description"></p>
-        </div>
-        <a href="#" class="food__read-more"></a>
       </div>
     </div>
   </header>
   <main class="main">
     <section class="news">
-      <h3 class="news__title"></h3>
-      <div class="news_list">
-        <article class="news__thumbnail">
-          <a href="" class="news__thumbnail-link"><img src="http://lorempixel.com/371/254/food" alt="" class="news__thumbnail-image"></a>
-          <p class="news__thumbnail-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique velit tenetur tempora obcaecati repudiandae, corporis aspernatur, nihil. Adipisci!</p>
-          <span class="news__thumbnail-read"></span>
-        </article>
-        <article class="news__thumbnail">
-          <a href="" class="news__thumbnail-link"><img src="http://lorempixel.com/371/254/food" alt="" class="news__thumbnail-image"></a>
-          <p class="news__thumbnail-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vero, corporis vel rerum cum, temporibus assumenda voluptates aperiam.</p>
-          <span class="news__thumbnail-read"></span>
-        </article>
-        <article class="news__thumbnail">
-          <a href="" class="news__thumbnail-link"><img src="http://lorempixel.com/371/254/food" alt="" class="news__thumbnail-image"></a>
-          <p class="news__thumbnail-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ratione excepturi dolorem cupiditate repellat, exercitationem omnis, minus distinctio.</p>
-          <span class="news__thumbnail-read"></span>
-        </article>
+      <div class="container">
+        <h3 class="news__title">
+          Our news
+        </h3>
+        <div class="news__list">
+          <article class="news__thumbnail">
+            <a href="" class="news__thumbnail-link"><img src="img/food-image1.jpg" alt="" class="news__thumbnail-image"></a>
+            <h4 class="news__thumbnail-title">
+              Lorem ipsum
+            </h4>
+            <p class="news__thumbnail-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique velit tenetur tempora obcaecati repudiandae, corporis aspernatur, nihil. Adipisci!</p>
+            <a class="news__thumbnail-read">Read more</a>
+          </article>
+          <article class="news__thumbnail">
+            <a href="" class="news__thumbnail-link"><img src="img/food-image2.jpg" alt="" class="news__thumbnail-image"></a>
+            <h4 class="news__thumbnail-title">
+              Lorem ipsum
+            </h4>
+            <p class="news__thumbnail-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vero, corporis vel rerum cum, temporibus assumenda voluptates aperiam.</p>
+            <a class="news__thumbnail-read">Read more</a>
+          </article>
+          <article class="news__thumbnail">
+            <a href="" class="news__thumbnail-link"><img src="img/food-image3.jpg" alt="" class="news__thumbnail-image"></a>
+            <h4 class="news__thumbnail-title">
+              Lorem ipsum
+            </h4>
+            <p class="news__thumbnail-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ratione excepturi dolorem cupiditate repellat, exercitationem omnis, minus distinctio.</p>
+            <a class="news__thumbnail-read">Read more</a>
+          </article>
+        </div>
       </div>
     </section>
     <section class="newsletter">
-      <h3 class="newsletter__title"></h3>
-      <p class="newsletter__description"></p>
-      <form action="" class="newsletter__form"><input type="email" class="newsletter__email"><button class="newsletter__submit" type="button"></button></form>
+      <div class="container">
+        <h3 class="newsletter__title">
+          Newsletter
+        </h3>
+        <p class="newsletter__description">
+          Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus
+        </p>
+        <form action="" class="newsletter__form">
+          <input type="email" class="newsletter__email" placeholder="email adress">
+          <button class="newsletter__submit" type="button">Sign up</button>
+        </form>
+      </div>
     </section>
     <section class="features">
-      <article class="features__item">
-        <h3 class="features__item-title"> </h3>
-        <p class="features__item-description"></p>
-        <p class="features__item-description"></p>
-        <a href="" class="features__item-signup"></a>
-      </article>
-      <article class="features__item">
-        <h3 class="features__item-title"></h3>
-        <p class="features__item-description"></p>
-        <p class="features__item-description"></p>
-        <a href="" class="features__item-signup"></a>
-      </article>
-      <img src="http://lorempixel.com/588/407/food" alt="" class="features__image">
+      <div class="container">
+        <article class="features__item">
+          <h4 class="features__item-title">
+            Ipsum dolor sit amet
+          </h4>
+          <p class="features__item-description">
+            Nam accumsan nunc sit amet elementum sollicitudin. Integer vel lacus eget tortor lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.
+          </p>
+          <p class="features__item-description">
+            Quisque ut erat ornare, feugiat turpis a, fringilla felis. Nulla molestie lorem et orci sagittis, et accumsan ex porta.
+          </p>
+          <a href="" class="features__item-signup">Sign up</a>
+        </article>
+        <article class="features__item">
+          <h4 class="features__item-title">
+            Ipsum dolor sit amet
+          </h4>
+          <p class="features__item-description">
+            Nam accumsan nunc sit amet elementum sollicitudin. Integer vel lacus eget tortor lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.
+          </p>
+          <p class="features__item-description">
+            Quisque ut erat ornare, feugiat turpis a, fringilla felis. Nulla molestie lorem et orci sagittis, et accumsan ex porta.
+          </p>
+          <a href="" class="features__item-signup">Sign up</a>
+        </article>
+        <img src="http://lorempixel.com/588/407/food" alt="" class="features__image">
+      </div>
     </section>
   </main>
   <footer class="footer">
     <div class="footer__upper">
-      <div class="footer__advantages-list">
-        <a href="" class="footer__advantages-link">Advantage_1</a>
-        <a href="" class="footer__advantages-link">Advantage_2</a>
-        <a href="" class="footer__advantages-link">Advantage_3</a>
-        <a href="" class="footer__advantages-link">Advantage_4</a>
-        <a href="" class="footer__advantages-link">Advantage_5</a>
-        <a href="" class="footer__advantages-link">Advantage_6</a>
-      </div>
-      <div class="footer__advantages-list">
-        <a href="" class="footer__advantages-link">Advantage_1</a>
-        <a href="" class="footer__advantages-link">Advantage_2</a>
-        <a href="" class="footer__advantages-link">Advantage_3</a>
-        <a href="" class="footer__advantages-link">Advantage_4</a>
-        <a href="" class="footer__advantages-link">Advantage_5</a>
-        <a href="" class="footer__advantages-link">Advantage_6</a>
-      </div>
-      <div class="footer__advantages-list">
-        <a href="" class="footer__advantages-link">Advantage_1</a>
-        <a href="" class="footer__advantages-link">Advantage_2</a>
-        <a href="" class="footer__advantages-link">Advantage_3</a>
-        <a href="" class="footer__advantages-link">Advantage_4</a>
-        <a href="" class="footer__advantages-link">Advantage_5</a>
-        <a href="" class="footer__advantages-link">Advantage_6</a>
+      <div class="container container--header-upper">
+        <div class="footer__advantages-list">
+          <a href="" class="footer__advantages-link">Advantage_1</a>
+          <a href="" class="footer__advantages-link">Advantage_2</a>
+          <a href="" class="footer__advantages-link">Advantage_3</a>
+          <a href="" class="footer__advantages-link">Advantage_4</a>
+          <a href="" class="footer__advantages-link">Advantage_5</a>
+          <a href="" class="footer__advantages-link">Advantage_6</a>
+        </div>
+        <div class="footer__advantages-list">
+          <a href="" class="footer__advantages-link">Advantage_1</a>
+          <a href="" class="footer__advantages-link">Advantage_2</a>
+          <a href="" class="footer__advantages-link">Advantage_3</a>
+          <a href="" class="footer__advantages-link">Advantage_4</a>
+          <a href="" class="footer__advantages-link">Advantage_5</a>
+          <a href="" class="footer__advantages-link">Advantage_6</a>
+        </div>
+        <div class="footer__advantages-list">
+          <a href="" class="footer__advantages-link">Advantage_1</a>
+          <a href="" class="footer__advantages-link">Advantage_2</a>
+          <a href="" class="footer__advantages-link">Advantage_3</a>
+          <a href="" class="footer__advantages-link">Advantage_4</a>
+          <a href="" class="footer__advantages-link">Advantage_5</a>
+          <a href="" class="footer__advantages-link">Advantage_6</a>
+        </div>
       </div>
     </div>
     <div class="footer__bottom">
-      <p class="footer__recomendation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ad, ipsa rerum sit! Temporibus minima, placeat commodi optio explicabo fugiat.</p>
+      <div class="container container--upper-footer">
+        <p class="footer__recomendation">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum ad, ipsa rerum sit! Temporibus minima, placeat commodi optio explicabo fugiat.</p>
+      </div>
     </div>
   </footer>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
