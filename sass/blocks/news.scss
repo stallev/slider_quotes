@@ -1,5 +1,5 @@
 .news{
-  padding: 100px 0 0 0;
+  padding: 100px 0 100px 0;
   &__title{
     text-align: center;
     color: #31353e;
@@ -14,6 +14,7 @@
   }
   &__thumbnail{
     width: 371px;
+    text-align: center;
     &-title{
       color: #31353e;
       line-height: 30px;
@@ -25,6 +26,24 @@
       line-height: 30px;
       font-size: 15px;
       font-weight: 300;
+    }
+    &-read{
+      display: inline-block;
+      margin: 0 auto;
+      padding: 8px 25px;
+      text-align: center;
+      border-radius: 27px;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      background-color: #ffffff;
+      color: #4e5159;
+      font-size: 15px;
+      font-weight: 300;
+      line-height: 30px;
+      cursor: pointer;
+      &:hover{
+        color: orange;
+        background-color: #4b4e73;
+      }
     }
   }
 
