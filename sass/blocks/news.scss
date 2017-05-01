@@ -1,6 +1,7 @@
 .news{
   padding: 100px 0 100px 0;
   &__title{
+    margin-bottom: 50px;
     text-align: center;
     color: #31353e;
     font-size: 30px;
@@ -10,16 +11,22 @@
   &__list{
     display: flex;
     justify-content: space-around;
-    align-items: center;
   }
   &__thumbnail{
     width: 371px;
     text-align: center;
     &-title{
+      margin: 0 auto;
+      margin-top: 30px;
       color: #31353e;
       line-height: 30px;
       font-size: 24px;
       font-weight: 700;
+    }
+    &-content{
+      display: flex;
+      flex-wrap: wrap;
+      height: calc(100% - 254px);
     }
     &-description{
       color: #31353e;
@@ -29,6 +36,7 @@
     }
     &-read{
       display: inline-block;
+      align-self: flex-end;
       margin: 0 auto;
       padding: 8px 25px;
       text-align: center;

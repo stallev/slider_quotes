@@ -36,6 +36,11 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    border: none;
+    &:focus{
+      border: none;
+      outline: none;
+    }
   }
   &__submit{
     position: absolute;
