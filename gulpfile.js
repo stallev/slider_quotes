@@ -5,6 +5,7 @@ var sass = require('gulp-sass');
 var plumber = require('gulp-plumber');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
+var flexibility = require('postcss-flexibility');
 var server = require('browser-sync').create();
 var csso = require('gulp-csso');
 var gulpMerge = require('merge2');
@@ -23,7 +24,8 @@ gulp.task('style', function() {
     .pipe(postcss([
       autoprefixer({browsers: [
         'last 2 versions'
-      ]})
+      ]}),
+      flexibility()
     ]))
     .pipe(cssComb())
     .pipe(gulp.dest('build/css'))
