@@ -9,6 +9,7 @@
     line-height: 24px;
   }
   &__list{
+    -js-display: flex;
     display: flex;
     justify-content: space-around;
   }
@@ -24,6 +25,7 @@
       font-weight: 700;
     }
     &-content{
+      -js-display: flex;
       display: flex;
       flex-wrap: wrap;
       height: calc(100% - 254px);
